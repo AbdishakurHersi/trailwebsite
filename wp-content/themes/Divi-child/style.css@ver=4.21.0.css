@@ -1,0 +1,35 @@
+/*
+ Theme Name:   Divi Child
+ Theme URI:    
+ Description:  Divi Child Theme
+ Author:       LL
+ Author URI:   
+ Template:     Divi
+ Version:      
+ Tags:         
+ Text Domain:  Divi-child
+*/
+
+@import url("../Divi/style.css");
+
+/*---------------buttons---------------*/
+.et_pb_button {
+line-height: 1.4em !important;}
+
+
+/*---------------logo size on mobile---------------*/
+@media only screen and (max-width: 980px) {
+.et_header_style_left #logo {
+    max-width: 60% !important;
+}
+}
+/*---------------change mobile menu breaking point---------------*/
+@media (max-width: 1085px) {
+ #et_mobile_nav_menu {
+ display: block;
+ }
+ 
+#top-menu {
+ display: none;
+ }
+ }
